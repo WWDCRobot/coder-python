@@ -49,6 +49,7 @@ with ProcessPoolExecutor(max_workers=5) as executor:
 都作为高级API相同的OS原语，不影响速度。
 
 **结论**
+---
 简单并发应用，使用concurrent.futures。复杂些的，自己动手实现。
 
 ---
